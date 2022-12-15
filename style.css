@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image:url(photos/fundo1.jpg) ;
+    background-repeat: no-repeat;
+    
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p,a,h1,h2,h3{
+    font-family: 'PT Sans', sans-serif;
+    padding:0.3rem; 
+    color: #007cba;
+}
+
+a:hover,h1:hover{
+    opacity: 0.5;
+}
+ /*------------CABEÇALHO-----------*/
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+
+}
+
+.cabecalho .logo{
+    max-width: 8rem;
+   
+}
+.cabecalho .menu{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    margin-left: 28rem;
+}
+
+/*--------------MAIN----------*/
+
+.main{
+    border-top: 0.4px solid rgb(128, 128, 226);
+    text-align: center;
+    padding: 4rem;
+}
+
+.main .links{
+    
+    display: inline-flex;
+    align-items: center;
+    padding: 2.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.main .links .imgl{
+    height: 75px;
+    width: 200px;
+}
+
+
+/*------Departamentos-----*/
+.container{
+    display: flex;
+    flex-direction: row;
+    border-top: 0.4px solid rgb(128, 128, 226);
+    text-align: left;
+    
+}
+
+
+.departamento .depart{
+    padding: 1.5rem;
+    margin-left: 1rem;
+    
+}
+
+
+.banner {
+    height: auto;
+    max-width: 100%;
+    position:relative ;
+    padding:5rem;
+}
+
+.imgb{
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(128, 189, 209)
+}
+
+/*-------Footer--------*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 0.4px solid rgb(128, 128, 226);
+    text-align: right;
+    font-size: 0.6rem;
+
+}
+.footer .imgf{
+    height: 100% ;
+    width: 9%;
+    padding: 0.5rem;
+}
+
