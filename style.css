@@ -38,14 +38,14 @@ a:hover,h1:hover{
 }
 
 .cabecalho .logo{
-    max-width: 8rem;
+    max-width: 8%;
    
 }
 .cabecalho .menu{
     display: flex;
     gap: 2rem;
-    font-size: 1.3rem;
-    margin-left: 28rem;
+    font-size: 120%;
+
 }
 
 /*--------------MAIN----------*/
