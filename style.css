@@ -53,11 +53,10 @@ a:hover,h1:hover{
 
 .main{
     
-    padding:0.7rem;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 2rem;
+    margin-left: 12%;
     justify-items: center;
-    width: 80%; 
+    width: 75%; 
     text-align: center;
     
 }
@@ -88,7 +87,6 @@ a:hover,h1:hover{
 .container{
     display: flex;
     flex-direction: row;
-    border-top: 0.4px solid rgb(128, 128, 226);
     text-align: left;
     
 }
